@@ -1,7 +1,7 @@
 # Dokumentácia k projektu
 
 ## Popis projektu
-V tomto projekte sme navrhli a implementovali základnú sieť so serverom poskytujúcim služby HTTP a FTP. Topológia siete je hviezdicovitá so switchom, ku ktorému sú pripojené dva počítače a server. 
+V tomto projekte som navrhol a implementoval základnú sieť so serverom poskytujúcim služby HTTP a FTP. Topológia siete je hviezdicovitá so switchom, ku ktorému sú pripojené dva počítače a server. 
 
 ## Konfigurácia siete
 - **IP adresy zariadení:**
@@ -33,7 +33,6 @@ HTTP server bol nakonfigurovaný na poskytovanie základnej webovej stránky. S�
 ## Možné vylepšenia
 - Zavedenie HTTPS na webovom serveri.
 - Použitie SFTP namiesto FTP pre bezpečný prenos súborov.
-- Pridanie VLAN pre logické oddelenie sieťového prenosu.
 
 ---
 
@@ -72,4 +71,3 @@ The HTTP server was configured to host a basic web page. The `index.html` file w
 ## Potential Improvements
 - Enable HTTPS on the web server.
 - Use SFTP instead of FTP for secure file transfer.
-- Implement VLANs to logically separate network traffic.
