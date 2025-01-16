@@ -12,8 +12,8 @@ V tomto projekte som navrhol a implementoval základnú sieť so serverom poskyt
 
 ## Konfigurácia FTP servera
 - **Vytvorené používateľské kontá:**
-  - `admin0` s právami RWDNL (plný prístup).
-  - `user0` s právami R (iba čítanie).
+  - `admin0` s právami RWDNL (plný prístup). heslo: `98765432`
+  - `user0` s právami R (iba čítanie). heslo: `12345678`
 
 Používatelia môžu pristupovať k serveru cez FTP klienta pomocou svojich poverení.
 
@@ -50,8 +50,8 @@ This project involves designing and implementing a basic network with a server p
 
 ## FTP Server Configuration
 - **Created User Accounts:**
-  - `admin0` with RWDNL rights (full access).
-  - `user0` with R rights (read-only).
+  - `admin0` with RWDNL rights (full access). password: `98765432`
+  - `user0` with R rights (read-only). password: `12345678`
 
 Users can connect to the FTP server using their credentials via an FTP client.
 
